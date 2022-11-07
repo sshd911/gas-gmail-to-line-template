@@ -4,7 +4,7 @@ const sendLine = (body) => {
         "payload" : {
           'message': body
          },
-        "headers" : {"Authorization" : "Bearer "+ "u3NB4PxYeGkJNsONAi2UIKYKHquQPy2gYRK8Xoa8cPd"}  
+        "headers" : {"Authorization" : "Bearer "+ "pRIqhfgmDUqD8oRAN2TwsQxwP8YsZWCGdEzNW9lUS2K"}  
       };
     UrlFetchApp.fetch("https://notify-api.line.me/api/notify", options);
 }
